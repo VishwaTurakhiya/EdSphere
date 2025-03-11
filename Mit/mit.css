@@ -1,0 +1,352 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and overall page style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: grey;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: grey;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #F5A623;
+}
+
+/* Main Content Section */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: grey;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+/* University Overview Section */
+#overview p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Academic Programs Section */
+#academics ul {
+    list-style: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#academics p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Admissions Information Section */
+#admissions p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+#admissions h3 {
+    margin-top: 20px;
+}
+
+/* Campus Life Section */
+#campus-life p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+#campus-life h3 {
+    margin-top: 20px;
+}
+
+/* Research Section */
+#research p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Contact Section */
+#contact address p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: grey;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    header .logo img {
+        width: 120px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+}
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: grey; /* Harvard Red */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Main Content Section */
+main {
+    padding: 40px;
+}
+
+/* Section Titles */
+h2 {
+    color: grey;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* University Overview Section */
+#overview {
+    margin-bottom: 40px;
+}
+
+#overview img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Academic Programs Section */
+#academics img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Admissions Section */
+#admissions img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Campus Life Section */
+#campus-life img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Research Section */
+#research img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Lists and Paragraphs Styling */
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Links Styling */
+a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
